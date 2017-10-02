@@ -44,4 +44,3 @@ Returns 'True' as there exists a pair 67 + 44 = 111
 ## KMPAlgorithm
 Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function that searches pattern in txt and prints true if there exists. You may assume that n > m.
 
-## String Permutations
