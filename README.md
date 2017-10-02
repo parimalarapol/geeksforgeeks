@@ -44,3 +44,10 @@ Returns 'True' as there exists a pair 67 + 44 = 111
 ## KMPAlgorithm
 Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function that searches pattern in txt and prints true if there exists. You may assume that n > m.
 
+## RearrangeZeroOne
+You are given an array of 0s and 1s in random order. Segregate 0s on left side and 1s on right side of the array. Traverse array only once
+
+```
+Input array   =  [0, 1, 0, 1, 0, 0, 1, 1, 1, 0] 
+Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1] 
+```
