@@ -1,3 +1,4 @@
+
 ## Stack
 Implement a Stack with operations push, pop, peek, isFull, isEmpty.
 
