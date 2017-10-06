@@ -15,7 +15,7 @@ public class Stack {
 	
 	void push(int number) {
 		if(top == size-1) 	
-			throw new StackOverflowException();
+			System.out.println("Cannot insert. Stack full");
 		else 
 			stack[++top] = number;
 	}
@@ -26,7 +26,7 @@ public class Stack {
 	
 	void pop() {
 		if(top == -1) 
-			throw new StackUnderflowException();
+			System.out.println("Cannot pop. Stack empty")
 		else 
 			top--;
 	}
