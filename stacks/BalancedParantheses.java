@@ -63,6 +63,8 @@ public class BalancedParantheses {
 
 class CharStack {
 	
+	//'`' is considered for no character to be returned. 
+	
 	char stack[];
 	int top, size, min, max;
 	
@@ -84,7 +86,7 @@ class CharStack {
 	}
 	
 	char peek() {
-		return (top >= 0) ? stack[top--] : '`';
+		return (top >= 0) ? stack[top] : '`';
 	}
 	
 	boolean isEmpty() {
