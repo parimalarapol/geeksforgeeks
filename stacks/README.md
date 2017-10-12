@@ -12,3 +12,6 @@ Given an expression string exp , write a program to examine whether the pairs an
 For example, the program should print true for exp = “[()]{}{[()()]()}” and false for exp = “[(])”
 
 http://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+
+## NextGreaterElement
+http://www.geeksforgeeks.org/next-greater-element/
